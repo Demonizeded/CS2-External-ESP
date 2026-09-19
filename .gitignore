@@ -1,0 +1,42 @@
+# Visual Studio: local workspace and user settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output directories (at any level)
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+x64/
+x86/
+Win32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Intermediate build and compiler files
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.res
+*.exp
+*.recipe
+
+# Visual Studio code browsing databases
+ipch/
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+*.sdf
+*.opensdf
+
+# Local Dear ImGui window layout
+imgui.ini

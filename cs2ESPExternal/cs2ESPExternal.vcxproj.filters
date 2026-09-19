@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{0510f4cd-5707-4b1a-af84-62c35a2bdb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{bed4208a-646c-4852-a11a-f0cc96becd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic">
+      <UniqueIdentifier>{d6339dbd-0548-44bb-ba82-7a740bba61e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{aeb847c5-3dc6-48e3-bb70-5f2aabad0ee2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cs2ESPExternal.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Syscall.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Ctx.cpp">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiUtils.cpp">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="backends\imgui_impl_dx11.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="backends\imgui_impl_win32.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="readData.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="handleVisual.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="dataMagazine.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.hpp">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedHandle.hpp">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Syscall.hpp">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Ctx.hpp">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiUtils.hpp">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="backends\imgui_impl_dx11.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="backends\imgui_impl_win32.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="readData.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="handleVisual.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="dataMagazine.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
